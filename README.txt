@@ -7,10 +7,12 @@ Configuración inicial de git:
 *git config --global core.autocrlf input (se utiliza para que los caracteres especiales de salto de linea no den errores entre windows y mac)
 
 Comandos de git
+*pwd (muestra la ruta en la que nos encontramos actualmente)
+*ls (Muestra las carpetas y archivos que se encuentran en la ruta actual)
 *mkdir (se escribe el nombre de la carpeta que se quiere crear)
 *cd nombredecarpeta (nos movemos al directorio en el que vamos a trabajar)
 *cd .. (regresar un directorio)
-*git init (iniciapiza repositorio vacio git)
+*git init (inicializa repositorio vacio git)
 *code . (abre el editor para empezar a crear archivos)
 *git status  (nos muestra el estatus y la rama en la que nos encontramos)
 *git add (permite agregar archivos para poder commit)
