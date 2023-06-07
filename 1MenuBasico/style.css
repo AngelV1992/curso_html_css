@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    background-color: darkblue;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo:hover{
+    color: rebeccapurple;
+}
+
+.logo img{
+    height: 75px;
+    margin-left: 20px;
+}
+
+.nav_link{
+     font-weight: 600;
+     padding-right: 20px;
+}
+
+.nav_link:hover{
+    color: red;
+}
